@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!--  定义别名-->
+    <typeAliases>
+        <typeAlias type="domain.Account" alias="account"></typeAlias>
+    </typeAliases>
+<!--配置环境-->
+
+    <mappers>
+        <mapper resource="mapper/accountMapper.xml"></mapper>
+    </mappers>
+
+</configuration>
