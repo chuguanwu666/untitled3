@@ -47,4 +47,5 @@ http://www.springframework.org/schema/context/spring-context.xsd">
     <aop:config>
         <aop:advisor advice-ref="txAdvice" pointcut="execution(* service.*.*(..))"/>
     </aop:config>
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
 </beans>

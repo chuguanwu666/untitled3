@@ -15,6 +15,12 @@ public class Account {
         return id;
     }
 
+    public Account(Integer id, String name, Double money) {
+        this.id = id;
+        this.name = name;
+        this.money = money;
+    }
+
     public void setId(Integer id) {
         this.id = id;
     }
